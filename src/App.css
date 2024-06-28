@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.main .catalogo {
+    box-shadow: -10px 10px 5px 0px #00000055; /*hOff vOff Blur Sprad*/
+    margin: 0px 10px; 
+
+    width: 50%;
+    max-height: 800px
+}
+
+.titulo {
+  padding: 30px;
+}
+
+.catalogo-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  gap: 10px;
+}
+
+@media (max-width: 853px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .main .catalogo {
+    width: 100%;
+    max-height: 720px;
+  }
+}

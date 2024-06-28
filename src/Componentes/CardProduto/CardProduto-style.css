@@ -1,0 +1,35 @@
+.sessao__produtos__lista__item {
+    background-color: #5D04D9;
+    border: 3px solid #000000;
+    border-radius: 1em;
+    box-shadow: -5px 5px 3px 0px #00000055; /*hOff vOff Blur Sprad*/
+    padding: 10px;
+    width: 196px;
+    height: 258px;
+    /* margin-bottom: 53px; */
+}
+
+.lista__item__nomeProduto {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+    /* padding: 10px 0px; */
+}
+
+.container__preço {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.container__preço__lixeira {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container__lixeira:hover {
+    scale: 1.1;
+}
